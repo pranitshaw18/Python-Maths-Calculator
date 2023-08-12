@@ -1,0 +1,89 @@
+
+Myfirstprogramcalculator = Heading1 = "Greater Number Calculator"
+print(Heading1.center(20))
+
+
+def isGreater(a, b):
+  if (a > b):
+    print("1st number is greater")
+    print("Thanks for using!")
+  if (a == b):
+    print("Both numbers are equal")
+    print("Thanks for using!")
+  if(a<b):
+    print("2nd number is greater")
+    print("Thanks for using!")
+
+
+a = int(input("Enter 1st value:\n"))
+b = int(input("Enter 2nd value:\n"))
+isGreater(a, b)
+print("\n \n")
+
+# Addition calculator
+
+Heading2 = "Addition calculator"
+print(Heading2.center(20))
+
+
+def isAdd(c, d):
+  print("The answer is:", c + d)
+c = int(input("Enter 1st value:\n"))
+d = int(input("Enter 2nd value:\n"))
+isAdd(c, d)
+print("Thanks for using!")
+print("\n \n")
+
+# Subtraction Calculator
+
+Heading3 = "Subtraction calculator"
+print(Heading3.center(20))
+def isSub(e, f):
+  print("The answer is:", e - f)
+
+
+e = int(input("Enter 1st value:\n"))
+f = int(input("Enter 2nd value:\n"))
+isSub(e, f)
+print("Thanks for using!")
+print("\n \n")
+
+
+
+
+
+
+# Multiplication Calculator
+
+Heading4 = "Multiplication calculator"
+print(Heading4.center(20))
+def isMutp(g, h):
+  print("The answer is:", g * h)
+
+
+e = int(input("Enter 1st value:\n"))
+f = int(input("Enter 2nd value:\n"))
+isMutp(e, f)
+print("Thanks for using!")
+print("\n \n")
+
+
+
+
+
+
+# Division Calculator
+
+Heading5 = "Division calculator"
+print(Heading5.center(20))
+def isDiv(i, j):
+  print("The answer is:", i / j)
+
+
+i = int(input("Enter 1st value:\n"))
+j = int(input("Enter 2nd value:\n"))
+isDiv(i, j)
+print("Thanks for using!")
+print("\n \n")
+
+print(Myfirstprogramcalculator)
